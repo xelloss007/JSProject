@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- 프로퍼티 --> 
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+test<br>
+<script src = 'b.js'></script> 
+<!--직접 타이핑 하는 방법 
+	자바랑 다르다!!!! 위에서 함수 선언하고 밑에서 써라!!!
+	자바스크립트는 순서가 중요하다. 그래서 함수선언 후 그 앞에서 쓰면 에러, 뒤에서 쓰면 오류 없음-->
+
+<!-- 이렇게 쓰면 에러남. 
+ <script type="text/javascript">
+bbb();
+
+</script>-->
+<script type="text/javascript">
+function bbb(){
+	console.log('bbb');
+}
+
+</script>
+<script type="text/javascript">
+bbb();
+
+</script>
+</body>
+</html>
