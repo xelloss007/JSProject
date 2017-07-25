@@ -55,7 +55,8 @@ foo2(); //이것이 있어야 내부적으로 반환된 함수가 실행된다!!
 var arr = [2,5,8,7,9];
 
 //소트메소드에 메소드를 추가해서  레프트 라이트를 바꿔주면 오름차순(기본) 내림차순 만들 수 있다.
-arr.sort(function(left, right){return right - left});
+//arr.sort(function(left, right){return right - left});
+arr.sort(function(a, b){return b - a});
 
 console.log(arr);
 //console.dir(arr);
