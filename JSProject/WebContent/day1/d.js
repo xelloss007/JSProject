@@ -156,7 +156,7 @@ console.log('x : ' + Data.getX() + ', y : ' + Data.getY() + ', tot : ' + tot);
 
 for(i = 0; i < 9; i++){
 	for(j = 0; j < 9; j++){
-		if(i!= 0){
+		if(i != 0){
 			console.log((i + 1) + 'x' + (j + 1) + '=' + ((i + 1) * (j + 1)));
 		}
 	}
@@ -166,9 +166,9 @@ for(i = 0; i < 9; i++){
 
 
 var student = new Array(5);
-for(i=0;i<5;i++){
+for(i = 0; i < 5; i++){
 	student[i]= {
-			hakbun :'',
+			hakbun : '',
 			name : '',
 			age : 0,
 			kor : 0,
@@ -238,7 +238,6 @@ for(i=0;i<5;i++){
 
 			doTot : function(){
 				return this.tot = this.kor + this.eng + this.math;
-//				return this.tot;
 			},
 			doAvg : function(){
 				return this.avg = (Math.floor((this.tot) / 3));
@@ -273,7 +272,7 @@ for(i=0;i<5;i++){
 
 }
 
-console.log(student.length);
+//console.log(student.length);
 student[0].setHakbun('11111');
 student[0].setName('이문규');
 student[0].setAge(31);
@@ -286,7 +285,7 @@ student[0].doGrade();
 
 console.log(student[0].Info());
 
-console.log(student.length);
+//console.log(student.length);
 student[1].setHakbun('22222');
 student[1].setName('안성호');
 student[1].setAge(20);
@@ -299,7 +298,7 @@ student[1].doGrade();
 
 console.log(student[1].Info());
 
-console.log(student.length);
+//console.log(student.length);
 student[2].setHakbun('33333');
 student[2].setName('김민주');
 student[2].setAge(26);
@@ -312,7 +311,7 @@ student[2].doGrade();
 
 console.log(student[2].Info());
 
-console.log(student.length);
+//console.log(student.length);
 student[3].setHakbun('44444');
 student[3].setName('이요한');
 student[3].setAge(23);
@@ -325,7 +324,7 @@ student[3].doGrade();
 
 console.log(student[3].Info());
 
-console.log(student.length);
+//console.log(student.length);
 student[4].setHakbun('55555');
 student[4].setName('원상진');
 student[4].setAge(34);
