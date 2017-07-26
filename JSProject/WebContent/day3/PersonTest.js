@@ -15,3 +15,5 @@ console.log(person1.name);
 
 person1.setName('김호국');
 console.log(person1.getName());
+
+//a
