@@ -15,5 +15,19 @@ console.log(person1.name);
 
 person1.setName('김호국');
 console.log(person1.getName());
+console.log(person1);
+console.log(person1.toString());
 
-//a
+
+var student1 = new Student('t001');
+
+console.log(student1.getHakbun());
+
+var student2 = new Student('김명호','t002');
+console.log(student2.getName());
+console.log(student2.getHakbun());
+
+var student3 = new Student('김명호', 33, 't003');
+console.log(student3.getName());
+console.log(student3.getAge());
+console.log(student3.getHakbun());
