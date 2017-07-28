@@ -2,10 +2,20 @@
  * Person 클래스
  */
 
-function Person(name){
-	this.name = name; //this 안쓰면 전역으로 빠져버림.
-}
+//function Person(name){
+//	this.name = name; //this 안쓰면 전역으로 빠져버림.
+//}
 function Person(name, age){
+	if(name === undefined){
+		this.name = '홍길동'
+	}else{
+		this.name = name;
+	}
+	if(age === undefined){
+		this.age = '0'
+	}else{
+		this.age = age;
+	}
 	this.name = name; //this 안쓰면 전역으로 빠져버림.
 	this.age = age;
 }

@@ -31,3 +31,4 @@ var student3 = new Student('김명호', 33, 't003');
 console.log(student3.getName());
 console.log(student3.getAge());
 console.log(student3.getHakbun());
+console.log(student3.toString());
